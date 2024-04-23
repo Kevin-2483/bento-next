@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Kevin',
   openInNewTab: true,
   title: 'Bento',
 
@@ -24,16 +24,16 @@ export const config: Config = {
     // 'google' or 'local'
     source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'Space',
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   // Set to "" to disable.
-  backgroundImage: '',
+  backgroundImage: 'nixos.png',
   themes: [
     // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
     'arc',
@@ -51,7 +51,7 @@ export const config: Config = {
   // Search Bar
   searchBar: true,
   searchEngine: 'google', // google, ddg
-  barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
+  barPlaceholder: 'Google', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
   // Greetings
@@ -107,29 +107,29 @@ export const config: Config = {
         url: 'https://github.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
+        name: 'Gmail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://mail.google.com/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'ChatGPT',
+        icon: 'chatgpt',
+        url: 'https://chat.openai.com/',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Drive',
+        icon: 'fab-google-drive',
+        url: 'https://drive.google.com/',
       },
       {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
+        name: 'QQMail',
+        icon: 'fab-qq',
+        url: 'https://mail.qq.com/',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'bilibili',
+        icon: 'fab-bilibili',
+        url: 'https://www.bilibili.com/',
       },
     ],
     // Second buttons group
@@ -146,19 +146,19 @@ export const config: Config = {
         url: 'https://twitter.com/',
       },
       {
-        name: 'bot',
-        icon: 'fab-discord',
-        url: 'https://discord.com/app',
+        name: 'myNixOS',
+        icon: 'fat-snowflake',
+        url: 'https://mynixos.com/',
       },
       {
-        name: 'Amazon',
-        icon: 'fab-amazon',
-        url: 'https://amazon.com/',
+        name: 'NixOS',
+        icon: 'fas-snowflake',
+        url: 'https://nixos.org/',
       },
       {
-        name: 'Hashnode',
-        icon: 'fab-hashnode',
-        url: 'https://hashnode.com/',
+        name: 'YouTube',
+        icon: 'fab-youtube',
+        url: 'https://www.youtube.com/',
       },
       {
         name: 'Figma',
