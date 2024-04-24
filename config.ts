@@ -203,7 +203,7 @@ export const config: Config = {
           },
           {
             name: 'Baidu',
-            url: 'https://www.baidu.com',
+            url: 'https://www.baidu.com/',
           },
           {
             name: 'mooc',
