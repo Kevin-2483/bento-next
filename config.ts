@@ -113,7 +113,7 @@ export const config: Config = {
       },
       {
         name: 'ChatGPT',
-        icon: 'chatgpt',
+        icon: 'comment',
         url: 'https://chat.openai.com/',
       },
       {
@@ -147,12 +147,12 @@ export const config: Config = {
       },
       {
         name: 'myNixOS',
-        icon: 'fat-snowflake',
+        icon: 'snowflake',
         url: 'https://mynixos.com/',
       },
       {
         name: 'NixOS',
-        icon: 'fas-snowflake',
+        icon: 'snowflake',
         url: 'https://nixos.org/',
       },
       {
