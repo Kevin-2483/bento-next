@@ -174,23 +174,23 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'server', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'WrtK', // Display text for the link
+            url: 'http://27.25.156.200:8010', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Wrt',
+            url: 'http://27.25.156.200:8001',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'V2RayA',
+            url: 'http://127.0.0.1:2017',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'frpc',
+            url: 'http://27.25.156.200:7400',
           },
         ],
       },
@@ -198,20 +198,20 @@ export const config: Config = {
         icon: 'coffee',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Youtube',
+            url: 'https://www.youtube.com',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Baidu',
+            url: 'https://www.baidu.com',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'mooc',
+            url: 'https://i.mooc.chaoxing.com/space',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'myNixOS',
+            url: 'https://mynixos.com/',
           },
         ],
       },
